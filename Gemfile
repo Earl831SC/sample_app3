@@ -29,9 +29,8 @@ group :test do
 		gem 'capybara', '1.1.2'
 end
 
-group :production do
+group :test, :production do
 	gem 'pg', '0.12.2'
-	gem 'rails_12factor'
 end
 
 # To use ActiveModel has_secure_password
